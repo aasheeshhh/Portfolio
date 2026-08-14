@@ -1,10 +1,9 @@
 export default {
   basics: {
-    name: "Jane Doe",
-    title: "Full-Stack Developer",
-    email: "jane@example.com",
-    phone: "+1 (555) 123-4567",
-    location: "San Francisco, CA",
+    name: "Ashish Ligade",
+    title: "AIML Engineer",
+    email: "ashishligade.tech@gmail.com",
+    location: "India,Pune",
     summary: "Passionate full-stack developer with 5+ years of experience building scalable web applications. Specializing in React, Node.js, and cloud architecture. Committed to creating elegant solutions that solve real-world problems.",
     avatar: "#YOUR_PROFILE_PHOTO_URL",
     social: [
@@ -173,7 +172,7 @@ export default {
     }
   ],
   meta: {
-    title: "Jane Doe | Full-Stack Developer",
+    title: "Ashish Ligade | Full-Stack Developer",
     description: "Portfolio and resume of Jane Doe, Full-Stack Developer specializing in React, Node.js and cloud architecture.",
     twitterHandle: "@janedoe",
     language: "en",
