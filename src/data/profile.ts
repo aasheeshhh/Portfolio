@@ -7,9 +7,9 @@ export default {
     summary: "Passionate full-stack developer with 5+ years of experience building scalable web applications. Specializing in React, Node.js, and cloud architecture. Committed to creating elegant solutions that solve real-world problems.",
     avatar: "#YOUR_PROFILE_PHOTO_URL",
     social: [
-      { platform: "LinkedIn", url: "#YOUR_LINKEDIN_URL", icon: "linkedin" },
-      { platform: "GitHub", url: "#YOUR_GITHUB_URL", icon: "github" },
-      { platform: "Twitter", url: "#YOUR_TWITTER_URL", icon: "twitter" }
+      { platform: "LinkedIn", url: "www.linkedin.com/in/ashish-ligade-948552429", icon: "linkedin" },
+      { platform: "GitHub", url: "https://github.com/aasheeshhh", icon: "github" },
+      { platform: "Twitter", url: "https://x.com/Ligadeashish", icon: "twitter" }
     ],
   },
   skills: [
