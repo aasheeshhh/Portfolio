@@ -14,7 +14,7 @@ export default {
   },
   skills: [
     {
-      category: "Frontend",
+      category: "Machine Learning",
       items: [
         { name: "JavaScript", level: 90 },
         { name: "TypeScript", level: 85 },
