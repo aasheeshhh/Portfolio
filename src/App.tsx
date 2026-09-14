@@ -9,11 +9,8 @@ import Footer from "./components/Footer";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Skills from "./sections/Skills";
-import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
 import Education from "./sections/Education";
-import Achievements from "./sections/Achievements";
-import Volunteering from "./sections/Volunteering";
 import Contact from "./sections/Contact";
 import profile from "./data/profile";
 
@@ -54,11 +51,8 @@ const App = () => {
             <Hero />
             <About />
             <Skills />
-            <Experience />
             <Projects />
             <Education />
-            <Achievements />
-            <Volunteering />
             <Contact />
           </main>
           <Footer />

@@ -1,180 +1,95 @@
 export default {
   basics: {
     name: "Ashish Ligade",
-    title: "AIML Engineer",
+    title: "Aspiring AI/ML Engineer",
     email: "ashishligade.tech@gmail.com",
-    location: "India,Pune",
-    summary: "Passionate full-stack developer with 5+ years of experience building scalable web applications. Specializing in React, Node.js, and cloud architecture. Committed to creating elegant solutions that solve real-world problems.",
-    avatar: "#YOUR_PROFILE_PHOTO_URL",
+    phone: "+91 8669879703",
+    location: "Pune, Maharashtra",
+    summary:
+      "Aspiring AI/ML Engineer with hands-on experience building and deploying an end-to-end machine learning application, from model development and evaluation to a production-style Flask API. Trained in supervised learning and AI foundations, with applied exposure to quantitative and credit-risk modeling. Comfortable across the ML pipeline: data preprocessing, feature engineering, model evaluation, explainability, and deployment.",
+    avatar: "",
+    resumeUrl: "/Ashish_Ligade_Resume.pdf",
     social: [
-      { platform: "LinkedIn", url: "www.linkedin.com/in/ashish-ligade-948552429", icon: "linkedin" },
-      { platform: "GitHub", url: "https://github.com/aasheeshhh", icon: "github" },
-      { platform: "Twitter", url: "https://x.com/Ligadeashish", icon: "twitter" }
+      { platform: "LinkedIn", url: "https://www.linkedin.com/in/ashish-ligade-948552429", icon: "linkedin" },
+      { platform: "GitHub", url: "https://github.com/aasheeshhh", icon: "github" }
     ],
   },
   skills: [
     {
-      category: "Machine Learning",
+      category: "AI & Machine Learning",
       items: [
-        { name: "JavaScript", level: 90 },
-        { name: "TypeScript", level: 85 },
-        { name: "React", level: 90 },
-        { name: "HTML/CSS", level: 95 },
-        { name: "Next.js", level: 80 }
+        { name: "scikit-learn", level: 85 },
+        { name: "XGBoost", level: 80 },
+        { name: "PyTorch", level: 70 },
+        { name: "TensorFlow", level: 70 },
+        { name: "Pandas & NumPy", level: 85 }
       ]
     },
     {
-      category: "Backend",
+      category: "Data & Modeling",
       items: [
-        { name: "Node.js", level: 85 },
-        { name: "Express", level: 80 },
-        { name: "Python", level: 75 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MongoDB", level: 85 }
+        { name: "Feature Engineering", level: 85 },
+        { name: "Model Evaluation", level: 85 },
+        { name: "Data Preprocessing", level: 85 },
+        { name: "Regression & Classification", level: 80 },
+        { name: "Model Explainability", level: 75 }
       ]
     },
     {
-      category: "DevOps & Tools",
+      category: "Engineering & Deployment",
       items: [
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 70 },
-        { name: "CI/CD", level: 75 },
-        { name: "Jest", level: 80 }
+        { name: "Python", level: 85 },
+        { name: "SQL", level: 75 },
+        { name: "Flask & REST APIs", level: 85 },
+        { name: "Git & GitHub Actions", level: 80 },
+        { name: "pytest & CI/CD", level: 80 }
       ]
     }
   ],
-  experience: [
-    {
-      role: "Senior Frontend Developer",
-      company: "TechCorp Inc.",
-      location: "San Francisco, CA",
-      start: "Jan 2022",
-      end: "Present",
-      bullets: [
-        "Led the frontend development for a dashboard used by 1M+ daily active users",
-        "Reduced bundle size by 40% through code splitting and lazy loading strategies",
-        "Implemented comprehensive test coverage, increasing test coverage from 65% to 95%",
-        "Mentored junior developers and conducted code reviews for team of 8 developers"
-      ]
-    },
-    {
-      role: "Full-Stack Developer",
-      company: "InnovateSoft",
-      location: "Boston, MA",
-      start: "Mar 2020",
-      end: "Dec 2021",
-      bullets: [
-        "Developed and maintained multiple client-facing web applications with React and Node.js",
-        "Implemented RESTful APIs that processed 500K+ daily requests",
-        "Reduced page load times by 60% through performance optimizations",
-        "Collaborated with UX designers to implement responsive mobile-first designs"
-      ]
-    },
-    {
-      role: "Junior Web Developer",
-      company: "CodeStartup",
-      location: "Remote",
-      start: "Jun 2018",
-      end: "Feb 2020",
-      bullets: [
-        "Built and maintained client websites using JavaScript, HTML, and CSS",
-        "Integrated third-party APIs and services into web applications",
-        "Participated in daily stand-ups and weekly sprint planning meetings",
-        "Contributed to company's internal component library"
-      ]
-    }
-  ],
+  experience: [],
   projects: [
     {
-      title: "EcoTracker",
-      description: "A full-stack application allowing users to track and reduce their carbon footprint through daily activities.",
-      image: "#PROJECT1_IMAGE_URL",
-      tags: ["React", "Node.js", "MongoDB", "Chart.js"],
-      liveUrl: "#PROJECT1_LIVE_URL",
-      sourceUrl: "#PROJECT1_REPO_URL"
-    },
-    {
-      title: "DevConnect",
-      description: "A social platform for developers to share projects, ask questions, and collaborate on open-source initiatives.",
-      image: "#PROJECT2_IMAGE_URL",
-      tags: ["React", "Express", "PostgreSQL", "Socket.io"],
-      liveUrl: "#PROJECT2_LIVE_URL",
-      sourceUrl: "#PROJECT2_REPO_URL"
-    },
-    {
-      title: "MealPrep Pro",
-      description: "An application that helps users plan meals, generate shopping lists, and calculate nutritional information.",
-      image: "#PROJECT3_IMAGE_URL",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase"],
-      liveUrl: "#PROJECT3_LIVE_URL",
-      sourceUrl: "#PROJECT3_REPO_URL"
+      title: "CreditWise - AI-Powered Loan Approval System",
+      description: "Decision-support application that predicts loan-approval eligibility from applicant financial and demographic data. A stacking ensemble of Logistic Regression, Random Forest, and XGBoost achieved 95.79% accuracy and 0.9865 ROC-AUC on hold-out data, served through a validated Flask REST API.",
+      image: "/placeholder.svg",
+      tags: ["Python", "scikit-learn", "XGBoost", "Flask", "pytest", "GitHub Actions"],
+      liveUrl: "",
+      sourceUrl: "https://github.com/aasheeshhh/CreditWise-Loan-System"
     }
   ],
   education: [
     {
-      degree: "M.S. Computer Science",
-      institution: "Stanford University",
-      location: "Stanford, CA",
-      start: "2016",
-      end: "2018",
-      description: "Focused on Human-Computer Interaction and Database Systems. Thesis on adaptive user interfaces."
-    },
-    {
-      degree: "B.S. Computer Science",
-      institution: "MIT",
-      location: "Cambridge, MA",
-      start: "2012",
-      end: "2016",
-      description: "Minor in Mathematics. Dean's List all semesters. Participated in Hackathon team."
+      degree: "B.Tech in Automation and Robotics",
+      institution: "Dr. D. Y. Patil Institute of Technology",
+      location: "Pune, Maharashtra",
+      start: "2024",
+      end: "2028",
+      description: "CGPA: 8.5/10.0"
     }
   ],
   certifications: [
     {
-      name: "AWS Certified Solutions Architect",
-      issuer: "Amazon Web Services",
-      date: "2022",
-      url: "#AWS_CERTIFICATION_URL"
+      name: "Supervised Machine Learning: Regression and Classification",
+      issuer: "DeepLearning.AI",
+      date: "Sep 2026"
     },
     {
-      name: "Google Professional Cloud Developer",
-      issuer: "Google Cloud",
-      date: "2021",
-      url: "#GOOGLE_CERTIFICATION_URL"
-    }
-  ],
-  achievements: [
-    {
-      title: "First Place, TechCrunch Hackathon",
-      date: "2021",
-      description: "Led team of 4 developers to create an accessibility-focused web application in 48 hours."
+      name: "IBM AI Foundations",
+      issuer: "IBM",
+      date: "Aug 2026"
     },
     {
-      title: "Open Source Contributor",
-      date: "2019 - Present",
-      description: "Regular contributor to React ecosystem projects with 20+ merged pull requests."
+      name: "Quantitative Research Job Simulation",
+      issuer: "J.P. Morgan via Forage",
+      date: "Feb 2026"
     }
   ],
-  volunteering: [
-    {
-      role: "Coding Instructor",
-      organization: "Code for Kids",
-      start: "2020",
-      end: "Present",
-      description: "Teach weekly programming classes to underserved middle school students."
-    },
-    {
-      role: "Tech Mentor",
-      organization: "Women Who Code",
-      start: "2019",
-      end: "Present",
-      description: "Mentor early-career women in technology careers through monthly meetups."
-    }
-  ],
+  achievements: [],
+  volunteering: [],
   meta: {
-    title: "Ashish Ligade | Full-Stack Developer",
-    description: "Portfolio and resume of Jane Doe, Full-Stack Developer specializing in React, Node.js and cloud architecture.",
-    twitterHandle: "@janedoe",
+    title: "Ashish Ligade | Aspiring AI/ML Engineer",
+    description: "Portfolio of Ashish Ligade, an aspiring AI/ML Engineer specializing in machine learning systems, model evaluation, and Flask API deployment.",
+    twitterHandle: "",
     language: "en",
     themeColor: "#2563eb"
   }

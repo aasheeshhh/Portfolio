@@ -31,7 +31,7 @@ export default function About() {
       <div className={cn(
         "grid grid-cols-1 md:grid-cols-5 gap-8 items-center",
       )}>
-        <div className="md:col-span-3 order-2 md:order-1">
+        <div className={cn("order-2 md:order-1", avatar ? "md:col-span-3" : "md:col-span-5")}>
           {prefersReducedMotion ? (
             <p className="text-lg leading-relaxed">{summary}</p>
           ) : (
@@ -54,18 +54,20 @@ export default function About() {
           )}
         </div>
         
-        <div className="md:col-span-2 flex justify-center order-1 md:order-2">
-          <div className="relative">
-            <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20">
-              <img 
-                src={avatar} 
-                alt="Profile" 
-                className="w-full h-full object-cover"
-              />
+        {avatar && (
+          <div className="md:col-span-2 flex justify-center order-1 md:order-2">
+            <div className="relative">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-primary/20">
+                <img
+                  src={avatar}
+                  alt="Ashish Ligade"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/10 to-accent/10 animate-pulse" style={{ animationDuration: '3s' }} />
             </div>
-            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/10 to-accent/10 animate-pulse" style={{ animationDuration: '3s' }} />
           </div>
-        </div>
+        )}
       </div>
     </AnimatedSection>
   );
